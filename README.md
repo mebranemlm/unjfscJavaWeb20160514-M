@@ -3,6 +3,9 @@ Proyecto Java Web del 2016/05/14 - Madeleine
 
 #BD Script - Oracle
 
+drop table tbl_cliente;
+commit;
+
 create table tbl_cliente(
 cliente varchar2(50) primary key not null,
 clave varchar2(50),
